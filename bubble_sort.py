@@ -10,7 +10,7 @@ def bubble_sort(nums: list[int]) -> list[int]:
 
 nums: list[int] = []
 
-while (len(nums) < 10):
+while len(nums) < 10:
     num: int = random.randint(1, 100)
     if num not in nums:
         nums.append(num)
